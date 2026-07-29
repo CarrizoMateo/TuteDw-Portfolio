@@ -4,7 +4,7 @@ export const projects = [
     title: "LeadPilot AI",
     description:
       "Dashboard SaaS para la gestión y análisis de leads. Incluye panel administrativo, analíticas, campañas, autenticación y diseño responsive.",
-    image: "/leadpilot.png",
+    image: `${import.meta.env.BASE_URL}leadpilot.png`,
     technologies: [
       "React",
       "TypeScript",
@@ -20,7 +20,7 @@ export const projects = [
     title: "TaskFlow",
     description:
       "Aplicación moderna para gestionar tareas y mejorar la productividad con una interfaz limpia y animaciones fluidas.",
-    image: "/taskflow.png",
+    image: `${import.meta.env.BASE_URL}taskflow.png`,
     technologies: [
       "React",
       "TypeScript",
@@ -35,7 +35,7 @@ export const projects = [
     title: "Talk To Me Institute",
     description:
       "Sitio web desarrollado para un instituto de inglés, con diseño moderno, información institucional y enfoque responsive.",
-    image: "/talktomeinstitute.png",
+    image: `${import.meta.env.BASE_URL}talktomeinstitute.png`,
     technologies: [
       "React",
       "TypeScript",
